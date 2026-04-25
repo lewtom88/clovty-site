@@ -1,127 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Clovty Consultancy Services</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Clovty</title>
+  <meta name="description" content="Engage with Clovty LLC. We provide briefings and scoping for commerce intelligence and research engagements." />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="canonical" href="https://clovty.com/contact.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-    <meta name="title" content="Contact Us | Clovty">
-    <meta name="description" content="Get in touch with Clovty LLC in Wyoming, USA.">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand">
+        <img src="images/logo.svg" alt="" width="28" height="28" />
+        Clovty
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Solutions</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Contact us</a>
+      <button class="menu-toggle" aria-controls="mobileMenu" aria-expanded="false" id="menuToggle">Menu</button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Solutions</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </header>
 
-    <link href="./output.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script> </head>
-<body class="bg-gray-50 dark:bg-gray-900 font-sans">
+  <section class="page-header">
+    <div class="container">
+      <p class="eyebrow eyebrow-accent mb-3">Professional Engagement</p>
+      <h1>Engage with our team.</h1>
+      <p class="lead">
+        Clovty engages with corporate clients on a business-to-business basis. 
+        Please submit the form below or correspond via 
+        <a href="mailto:contact@clovty.com" style="color: var(--accent); border-bottom: 1px solid currentColor;">contact@clovty.com</a> 
+        to initiate an introductory session.
+      </p>
+    </div>
+  </section>
 
-    <header class="fixed w-full z-50 top-0 bg-white/80 backdrop-blur-md border-b border-gray-100 dark:bg-gray-900/80 dark:border-gray-800">
-        <nav class="max-w-screen-xl px-4 py-3 mx-auto flex items-center justify-between">
-            <a href="#" class="flex items-center">
-                    <img src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Clovty Logo" />
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Clovty</span>
-            </a>
-            <div class="hidden lg:flex items-center space-x-8 text-sm font-medium text-gray-700 dark:text-gray-300">
-                <a href="index.html" class="hover:text-purple-700">Home</a>
-                <a href="company.html" class="hover:text-purple-700">Company</a>
-                <a href="#" class="hover:text-purple-700">Marketplace</a>
-                <a href="#" class="text-purple-700">Contact</a>
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+
+        <aside>
+          <div class="contact-info">
+            <dl>
+              <div>
+                <dt>Engagement Inquiries</dt>
+                <dd><a href="mailto:contact@clovty.com" style="color: var(--accent); border-bottom: 1px solid currentColor;">contact@clovty.com</a></dd>
+              </div>
+              <div>
+                <dt>Registered U.S. Office</dt>
+                <dd>
+                  Clovty LLC<br/>
+                  30 N Gould St Ste N<br/>
+                  Sheridan, WY 82801<br/>
+                  United States
+                </dd>
+              </div>
+              <div>
+                <dt>Operating Hours</dt>
+                <dd>Monday – Friday<br/>09:00 – 18:00 ICT (UTC+7)</dd>
+              </div>
+              <div>
+                <dt>Settlement Currency</dt>
+                <dd>USD via U.S. Wire or ACH only</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div style="margin-top: 2.5rem; padding: 1.5rem; background: var(--bg-soft); border-radius: 4px; border: 1px solid var(--line);">
+            <p class="eyebrow eyebrow-accent" style="margin-bottom: 0.6rem;">Enterprise Protocols</p>
+            <p style="font-size: 0.9rem; color: var(--ink-soft); line-height: 1.55;">
+              Clovty adheres to strict data governance standards. Initial briefings are treated as 
+              privileged information. Formal Engagement Letters are issued upon mutual alignment 
+              on technical scope and deliverables.
+            </p>
+          </div>
+        </aside>
+
+        <div>
+          <form action="https://formspree.io/f/xzdywbdp" method="POST" id="contactForm" novalidate>
+            <div class="form-grid cols-2">
+              <div class="field">
+                <label for="first_name">First name</label>
+                <input type="text" id="first_name" name="first_name" autocomplete="given-name" required />
+              </div>
+              <div class="field">
+                <label for="last_name">Last name</label>
+                <input type="text" id="last_name" name="last_name" autocomplete="family-name" required />
+              </div>
             </div>
-            <a href="#" class="bg-purple-700 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-purple-800 transition">Download</a>
-        </nav>
-    </header>
 
-    <main class="pt-32 pb-20">
-        <div class="max-w-screen-xl mx-auto px-4">
-
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-purple-700 font-semibold tracking-wide uppercase mb-3">Contact Us</h2>
-                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-6">Let's connect and build <br>something strategic.</h1>
-                <p class="text-lg text-gray-600 dark:text-gray-400">Ready to scale your business with Clovty's expert consultancy. Our team in Manila is standing by.</p>
+            <div class="form-grid cols-2 mt-2">
+              <div class="field">
+                <label for="email">Corporate email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label for="company">Organization</label>
+                <input type="text" id="company" name="company" required />
+              </div>
             </div>
 
-            <div class="grid lg:grid-cols-12 gap-8 items-stretch">
-
-                <div class="lg:col-span-5 space-y-6">
-                    <div class="bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-700 h-full">
-                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">Company Information</h3>
-
-                        <div class="space-y-8">
-
-                            <div class="flex items-start">
-                                <div class="bg-purple-50 dark:bg-purple-900/30 p-3 rounded-xl mr-4">
-                                    <svg class="w-6 h-6 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                                </div>
-                                <div>
-                                    <p class="text-sm text-gray-500 mb-1">Email Support</p>
-                                    <p class="text-lg font-semibold text-gray-900 dark:text-white">contact@clovty.com</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div class="bg-purple-50 dark:bg-purple-900/30 p-3 rounded-xl mr-4">
-                                    <svg class="w-6 h-6 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                </div>
-                                <div>
-                                    <p class="text-sm text-gray-500 mb-1">Headquarters</p>
-                                    <p class="text-gray-900 dark:text-white leading-relaxed">
-                                        30 N Gould St Ste N, Sheridan, <br>
-                                        WY 82801, USA
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7">
-                    <div class="bg-white dark:bg-gray-800 p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-700 h-full">
-                        <form action="#" class="space-y-6">
-                            <div class="grid md:grid-cols-2 gap-6">
-                                <div>
-                                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First Name</label>
-                                    <input type="text" class="bg-gray-50 border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-purple-500 focus:border-purple-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="First Name" required>
-                                </div>
-                                <div>
-                                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last Name</label>
-                                    <input type="text" class="bg-gray-50 border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-purple-500 focus:border-purple-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Last Name" required>
-                                </div>
-                            </div>
-                            <div>
-                                <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Work Email</label>
-                                <input type="email" class="bg-gray-50 border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-purple-500 focus:border-purple-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="name@company.com" required>
-                            </div>
-                            <div>
-                                <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
-                                <select class="bg-gray-50 border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-purple-500 focus:border-purple-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-                                    <option>General Inquiry</option>
-                                    <option>Business Partnership</option>
-                                    <option>Consultancy Service</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Message</label>
-                                <textarea rows="4" class="block p-4 w-full text-sm text-gray-900 bg-gray-50 rounded-xl border border-gray-200 focus:ring-purple-500 focus:border-purple-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Leave a comment..."></textarea>
-                            </div>
-                            <button type="submit" class="w-full text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-bold rounded-xl text-md px-5 py-5 transition shadow-lg shadow-purple-200 dark:shadow-none">Send Message</button>
-                            <p class="text-xs text-center text-gray-400">By submitting this form, you agree to our privacy policy.</p>
-                        </form>
-                    </div>
-                </div>
-
+            <div class="form-grid cols-2 mt-2">
+              <div class="field">
+                <label for="role">Title / Department</label>
+                <input type="text" id="role" name="role" placeholder="e.g. Data Architect, VP Strategy" />
+              </div>
+              <div class="field">
+                <label for="company_size">Organization Profile</label>
+                <select id="company_size" name="company_size">
+                  <option>Mid-market enterprise</option>
+                  <option>Fortune 500 / Global Brand</option>
+                  <option>Private Equity / VC Firm</option>
+                  <option>D2C Scale-up</option>
+                  <option>Family Office</option>
+                </select>
+              </div>
             </div>
+
+            <div class="form-grid mt-2">
+              <div class="field">
+                <label for="topic">Primary Service Focus</label>
+                <select id="topic" name="topic">
+                  <option>Custom AI Analysis Briefing</option>
+                  <option>Market &amp; Category Intelligence</option>
+                  <option>NLP-driven Trend Monitoring</option>
+                  <option>Commercial Due Diligence</option>
+                  <option>Enterprise Retainer Scoping</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field mt-2">
+              <label for="message">Engagement Objectives &amp; Desired Deliverables</label>
+              <textarea id="message" name="message" rows="5" placeholder="Please provide specific parameters regarding category focus, data geographies, and expected decision outcomes." required></textarea>
+            </div>
+
+            <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+              <button type="submit" class="btn btn-primary" style="justify-content: center; width: 100%; padding: 1rem;">Submit inquiry</button>
+              <p style="font-size: 0.78rem; color: var(--ink-muted); text-align: center; line-height: 1.55;">
+                Inquiry submission acknowledges our <a href="privacy.html" style="color: var(--accent); border-bottom: 1px solid currentColor;">Professional Privacy Policy</a>. 
+                Data is processed in compliance with U.S. Federal information standards.
+              </p>
+            </div>
+          </form>
         </div>
-    </main>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <div class="text-center py-8 border-t border-gray-100 dark:border-gray-800">
-            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2023 Clovty LLC. All Rights Reserved.</span>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="images/logo.svg" alt="" width="28" height="28" />
+            Clovty
+          </a>
+          <p>Clovty LLC is a Wyoming-registered limited liability company providing AI-powered commerce intelligence and research to enterprise teams worldwide.</p>
         </div>
-    </footer>
+        <div class="footer-col">
+          <h6>Solutions</h6>
+          <ul>
+            <li><a href="services.html">Market &amp; Category Intelligence</a></li>
+            <li><a href="services.html">Custom AI Analysis</a></li>
+            <li><a href="services.html">Trend & Demand Monitoring</a></li>
+            <li><a href="services.html">Commercial Due Diligence</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h6>Company</h6>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h6>Legal</h6>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <span>© 2026 Clovty LLC · All rights reserved</span>
+        <span>30 N Gould St Ste N · Sheridan, WY 82801 · United States</span>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 </body>
 </html>
